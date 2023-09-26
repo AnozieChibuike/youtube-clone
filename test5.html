@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .container {
+            display: grid;
+            height: 100vh;
+            grid-template-rows: auto 1fr auto;
+            padding-left: 1rem;
+        }
+        .one {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+        
+        .left-nav {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            place-items: center;
+        }
+        .image {
+            margin-left: 20px;
+        }
+        #logo {
+            width: 80%;
+        }
+        .links a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: grey;
+            transition: color 0.5s;
+        }
+        :hover#link1,:hover#link2,:hover#link3,:hover#link4,:hover#link5 {
+            color: black;
+            font-weight: bold;
+        }   
+        .started {
+            border: none;
+            color: white;
+            background-color: rgb(240, 100, 45);
+            padding: 10px 25px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: opacity 0.5s;
+        }
+        :hover.started {
+            opacity: 0.7;
+        }
+        .two {
+            display: grid;
+            grid-template-columns: 50vw 1fr;
+        }
+        .header-picture {
+            padding-top: calc(100vh - 85vh);
+             
+        }
+        .head-pic {
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100vw - 60vw)
+        }
+
+        .content {
+            display: grid;
+            grid-template-rows: auto auto 1fr;
+            padding: 2rem;
+            
+        }
+        .heading-p {
+            padding-top: 10rem;
+            font-size: 60px;
+            width: calc(100% - 300px)
+        }
+        .hea {
+            width: 400px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+            color: gray;
+        }
+        .disc {
+            padding-top: 20px
+        }
+        .discover {
+            padding: 15px 40px;
+            border-radius: 80px;
+            border: 1px solid grey;
+            background-color: white;
+            color:  rgb(240, 100, 45);
+            cursor: pointer;
+            transition: background-color 0.5s;
+        }
+        :hover.discover {
+            color: white;
+            background-color: rgb(240, 100, 45);
+            border: none;
+        }
+        .three {
+            
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            
+            <div class="left-nav">
+                
+                <div class="image">
+                    <img id="logo" src="./asset/google.png" alt="">
+                </div>
+                <div class="links">
+                    <a href="" id="link1">Home</a>
+                    <a href="" id="link2">About</a>
+                    <a href="" id="link3">Services</a>
+                    <a href="" id="link4">Contact</a>
+                    <a href="" id="link5">Login</a>
+                </div>
+            </div>
+            <div class="right-nav">
+                <button class="started">Get Started</button>       
+            </div>
+        </div>
+        <div class="two">
+            <div class="content">
+                <div class="heading">
+                    <p class="heading-p">Collaborate Like Never Before</p>
+                </div>
+                <div class="message">
+                    <p class="hea">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, minima sint earum fugit assumenda blanditiis quasi amet. Suscipit ab eligendi.</p>
+                </div>
+                <div class="disc">
+                    <button class="discover">Discover Video</button>
+                </div>
+            </div>
+            <div class="header-picture">
+                <img src="/asset/images/thumbnails/thumbnail-12.webp" alt="" class="head-pic">
+            </div>
+        </div>
+        <div class="three">
+
+            <p class="foot">
+                Anozie Joel
+            </p>
+        </div>
+    </div>
+</body>
+</html>
