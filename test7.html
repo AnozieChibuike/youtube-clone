@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p,span{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        
+        .first {
+            font-family: Arial, Helvetica, sans-serif;
+            display: grid;
+            grid-template-rows: auto auto auto;
+            width: 460px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: 1px solid ;
+            border-radius: 10px;
+            font-size: large;
+            margin-bottom: 20px;
+        }
+        .home {
+            padding-top: 10px;
+        }
+        .home,.not,.msg {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            align-items: center;
+        }
+        .msg {
+            padding-bottom: 10px !important;
+        }
+        
+        .num {
+            padding: 5px 15px;
+            background-color: rgb(15, 114, 226);
+            border-radius: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .container2 {
+            display: grid;
+            grid-template-rows: auto auto auto;
+            row-gap: 20px;
+        }
+        .container2 img {
+            background-color: pink;
+        }
+        .text {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            margin-left: 10px;
+        }
+        .image {
+            border-radius: 2em;
+        }
+        span {
+            margin-bottom: 3px;
+            display: block;
+        }
+        .pee {
+            width: 200px;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: auto;
+            color: grey;
+        }
+        .oliver {
+            display: flex;
+            justify-content: space-between;
+            max-width: 500px;
+            align-items: center;
+        }
+        .follow {
+            border: none;
+            background-color: rgb(14, 134, 182);
+            color: white;
+            padding: 7px 15px;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+
+        .container3 {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(137, 98, 173);
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .home1 {
+            margin-left: 15px;
+        }
+        .home3 {
+            font-weight: bold;
+            color: white;
+        }
+        .search {
+            margin-left: 40px;
+            margin-right: 40px;
+            flex: 1;
+            max-width: 550px;
+        }
+        .search3 {
+            width: 100%;
+            padding-left: 15px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-radius: 2em;
+            border: none;
+        }
+
+        .download3 {
+            padding: 8px 15px 8px 15px;
+            margin-right: 15px;
+            border: 1px solid white;
+            color: white;
+            background-color: transparent;
+            font-size: 17px;
+            border-radius: 3px;
+            cursor: pointer;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container3">
+        <div class="home1">
+            <p class="home3">Home</p>
+        </div>
+        <div class="search">
+            <input type="text" class="search3" placeholder="Search">
+        </div>
+        <div class="download">
+            <button class="download3">Download</button>
+        </div>
+    </div>
+
+
+    <div class="first">
+        <div class="home">
+            <p>Home</p>
+            <p class="num">14</p>
+        </div>
+        <div class="not">
+            <p>Notification</p>
+            <p class="num">3</p>
+        </div>
+        <div class="msg">
+            <p>Messages</p>
+            <p class="num">5</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="oliver">
+            <div class="text">
+                <img class="image" src="./asset/images/channels/channel-1.jpeg" alt="">
+                <p class="pee"><span style="font-weight: bold; color: black !important;">oliver </span>the cat <span style="margin-top: 3px;">Popular</span></p>
+            </div>
+            <button class="follow">Follow</button>
+        </div>
+
+        <div class="oliver">
+            <div class="text">
+                <img class="image" src="./asset/images/channels/channel-3.jpeg" alt="">
+                <p class="pee"><span style="font-weight: bold; color: black !important;">Mimi </span>Sleepy Cat <span style="margin-top: 3px;">Popular</span></p>
+            </div>
+            <button class="follow">Follow</button>
+        </div>
+
+        <div class="oliver">
+            <div class="text">
+                <img class="image" src="./asset/images/channels/channel-2.jpeg" alt="">
+                <p class="pee"><span style="font-weight: bold; color: black !important;">Rex </span>Happy Bulldog <span style="margin-top: 3px;">Popular</span></p>
+            </div>
+            <button class="follow">Follow</button>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>

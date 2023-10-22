@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: grey;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            display: flex; 
+        }
+        .left {
+            padding-top: 10px;
+            display: flex;
+            padding-right: 20px;
+            padding-left: 20px;
+            background-color: rgb(32, 31, 31);
+            flex-direction: column;
+        }
+        .inner-top {
+            display: flex;
+            justify-content: space-between;
+        }
+        img {
+            margin-top: 15px;
+            border-radius: 2em;
+        }
+        .middle {
+            background-color: rgb(44, 43, 43);
+            width: 28vw;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./asset/images/channels/channel-9.jpeg" alt="">
+            <img src="./asset/images/channels/channel-10.jpeg" alt="">
+            <img src="./asset/images/channels/channel-11.jpeg" alt="">
+        </div>
+        <div class="middle">
+            <div class="inner-top">
+                <p style="font-weight: bold; margin-bottom: 0px;">INFO</p>
+                <p style="font-weight: bold; margin-bottom: 0px;">+</p>
+            </div>
+            <div class="inner-bottom">
+                <p># new-videos</p>
+                <p># updates</p>
+                <p># faq</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

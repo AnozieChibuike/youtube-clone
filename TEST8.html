@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: Roboto;
+            src: url(./asset/roboto/Roboto-Light.ttf);
+        }
+        @font-face {
+            font-family: Joel;
+            src: url(./asset/roboto/Roboto-Black.ttf);
+        }
+        p {
+            margin: 0;
+        }
+        .container {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .image-contain {
+            margin-right: 33px;
+        }
+        img {
+            width: 50px;
+            border-radius: 2em;
+        }
+        .one {
+            margin-left: -20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .one-child {
+            display: flex;
+            justify-content: space-between;
+        }
+        .father {
+            border: 1px solid rgb(233, 231, 231);
+            display: flex;
+            flex-direction: column;
+            width: 380px;
+            padding: 10px 1px 20px 15px;
+            box-shadow: 1px 1px 10px rgba(110, 109, 109, 0.2);
+            border-radius: 5px;
+        }
+        .container2 {
+            padding-top: 10px;
+            padding-left: 10px;
+            margin-top: 20px;
+            box-shadow: 1px 1px 10px rgba(110, 109, 109, 0.2);
+            display: flex;
+            height: 250px;
+            width: 32rem;
+        }
+        .content {
+            display: flex;
+            flex-direction: column
+        }
+        .tweet {
+            width: 450px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+        }
+        .linke {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            border: 1px solid rgb(199, 199, 199);
+            margin-right: 20px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            height: 120px;
+            overflow: hidden;
+            margin-left: 10px;
+        }
+        #link {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <p style="color: grey; font-family: Roboto; font-size: 15px">ALL INBOXES</p>
+        <div class="container">
+            <div class="image-contain">
+                <img src="./asset/images/channels/my-channel.jpeg" alt="">
+            </div>
+            <div class="one">
+                <div class="one-child">
+                    <div class="text">
+                        <p style="font-family: Joel; padding-bottom: 4px; font-size: 19px">Chewy Promotions</p>
+                        <p style="font-family: Joel; padding-bottom: 4px;">Biggest sales of the year!</p>
+                    </div>
+                    <p style="color: grey; font-size: 15px; font-family: Roboto; ">4:58 PM</p>
+                </div>
+                <p style="color: grey; font-family: Roboto; font-size: 15px">Hey there! We're writing to tell you about our...</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image-contain">
+                <img src="./asset/images/channels/channel-7.jpeg" alt="">
+            </div>
+            <div class="one">
+                <div class="one-child">
+                    <div class="text">
+                        <p style="font-family: Joel; padding-bottom: 4px; font-size: 19px">Best Buy</p>
+                        <p style="font-family: Joel; padding-bottom: 4px;">Your Best Buy</p>
+                    </div>
+                    <p style="color: grey; font-size: 15px; font-family: Roboto; ">12:32 PM</p>
+                </div>
+                <p style="color: grey; font-family: Roboto; font-size: 15px">Thank you for shopping at Best Buy, here is ...</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image-contain">
+                <img src="./asset/images/channels/channel-2.jpeg" alt="">
+            </div>
+            <div class="one">
+                <div class="one-child">
+                    <div class="text">
+                        <p style="font-family: Joel; padding-bottom: 4px; font-size: 19px">Netflix</p>
+                        <p style="font-family: Joel; padding-bottom: 4px;">Coming soon to Netflix</p>
+                    </div>
+                    <p style="color: grey; font-size: 15px; font-family: Roboto; ">9:00 AM</p>
+                </div>
+                <p style="color: grey; font-family: Roboto; font-size: 15px">Brand new movies and shows, old favorites...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="image-cont">
+            <img src="./asset/images/channels/channel-9.jpeg" alt="">
+        </div>
+        <div class="content" style="font-family: Roboto; font-size: 20px">
+            <div class="tweet">
+                <p style="margin-bottom: 6px; font-family: Joel !important;">supersimple.dev <span style="font-family:Roboto; color: grey;">@SuperSimpleDev</span></p>
+                <p style="line-height: 25px;">What is backend web development? A complete overview. New video is up!</p>
+            </div>
+            <div class="linke">
+                <div style=" background-color: rgb(211, 209, 209); padding-right: 130px;">                    
+                </div>
+                <div id="link">
+                    <p style="color: grey; margin-bottom: 7px;">youtube.com</p>
+                    <p style="line-height: 25px; margin-bottom: ">Backend web development - a complete overview (2021)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

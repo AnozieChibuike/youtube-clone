@@ -1,18 +1,5 @@
-p {
-    font-family: Arial,sans-serif;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .thumbnail {
     width: 100%;
-}
-
-.search-bar {
-    display: block;
-}
-.video-preview {
-
 }
 
 .chan-pic {
@@ -34,6 +21,7 @@ p {
 }
 .thumbnail-row {
      margin-bottom: 12px;
+     position: relative;
 }
 
 
@@ -62,3 +50,17 @@ p {
 .author {
     margin-bottom: 4px;
 }
+
+.vid-time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    font-family: Roboto,Arial;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    right: 8px;
+}
+
+

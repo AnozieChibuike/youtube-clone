@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTO SM Core Portal</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: 33vh 33vh 1fr;
+            place-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            border: 1px rgb(222, 226, 230)  solid;
+            display: grid;
+            width: 35rem;
+            border-radius: 10px;
+        }
+        .heading {
+            place-self: center;
+            text-align: center;
+        }
+        .login {
+            font-weight: bold;
+            font-size: 19px;
+        }
+        .ad {
+            font-size: small;
+            margin-bottom: 0px;
+        }
+        .image {
+            padding-top: 50px;
+            place-self: center;
+        }
+        form {
+            display: grid;
+            grid-template-rows: 1fr;
+            padding-top: 0;
+         margin-top: 14px;
+        }
+        .log {
+            margin-top: 7px;
+            place-self: end;
+            padding-right: 35px;
+            padding-bottom: 20px;
+            margin-top: 15px;
+        }
+        .test {
+            margin-top: 0px;
+            width: 100%;
+            padding-top : 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border-radius: 5px;
+            border: solid 1px rgb(222, 226, 230) ;
+        }
+        .info {
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-bottom: 5px;
+        }
+        .info p {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #st {
+            background-color: rgb(222, 226, 230) ;
+            height: 1px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+        #l {
+            font-weight: 500;
+            padding: 13px 13px;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            background-color: rgb(0, 135, 90);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="container">
+        <div class="image">
+            <img src="./asset/loginLogo.af324a23.svg" alt="" class="img">
+        </div>
+        <div class="heading">
+            <p class="login">Login</p>
+            <p class="ad">ADMISSION SCREENING APPLICATION FORM</p>
+        </div>
+        <form action="" class="register">
+            <div class="info">
+                <p>
+                    Registration Number
+                </p>
+                <input class="test" style="display: block;" type="text" placeholder="Enter your JAMB registration number">
+            </div>
+            <div id="st"></div>
+            <div class="log">
+                <button id="l" type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+    <div></div>
+</body>
+</html>

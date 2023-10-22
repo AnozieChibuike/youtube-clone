@@ -1,0 +1,137 @@
+.header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(192, 191, 191);
+    z-index: 2;
+}
+.notify-parent {
+    position: relative;
+}
+
+.notify-count {
+    background-color: rgb(179, 0, 0);
+    color: white;
+    position: absolute;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -2px;
+    right: -5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;   
+}
+.middle-section {
+    margin-left: 70px;
+    margin-right: 35px;
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+.right-section {
+    width: 180px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.upload,.apps,.notify {
+    height: 24px;
+}
+
+.user {
+    height: 32px;
+    border: none;
+    border-radius: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hamburger {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px ;
+}
+.youtube-logo {
+    height: 20px;
+}
+
+.search-btn{
+    height: 39px;
+    width: 66px;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(247, 246, 246);
+    margin-left: -1px;
+
+    margin-right: 10px;
+}
+.voice-search-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 2em;
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.search-bar::placeholder {
+    font-family: Arial;
+    font-size: 16px;
+    
+}
+.search-bar {
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 36px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0, 0.05);
+    width: 0;
+}
+
+.search-icon {
+    height: 25px;
+    margin-top: 4px;   
+}
+
+.v-search-icon {
+    height: 25px;
+    margin-top: 4px;
+}

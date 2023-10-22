@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .head {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .left {
+            display: flex;
+            align-items: center;
+        }
+        .icon {
+            width: 50px;
+            border-radius: 2em;
+        }
+        .name {
+            padding-left: 10px;
+            font-weight: bold;
+        }
+        button {
+            font-weight: bold;
+            width: 100px;
+            height: 35px;
+            border-radius: 5px;
+        }
+        .friend {
+            color: white;
+            background-color: rgb(47, 95, 228);
+            border: none;
+        }
+        .message {
+            border: none;
+            background-color: rgb(215, 211, 211);
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="left">
+            <img src="./asset/images/channels/channel-7.jpeg" alt="" class="icon">
+            <p class="name">Oliver Cat</p>
+        </div>
+        <div class="right">
+            <button class="friend">Add Friend</button>
+            <button class="message">Message</button>
+        </div>
+    </div>
+</body>
+</html>
